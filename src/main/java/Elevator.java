@@ -17,7 +17,6 @@ public class Elevator {
             return;
         }
 
-
         System.out.println("Which floor do you want to go to? (0 - " + (numberOfFloors - 1) + "): ");
         int floorToGo = input.nextInt();
 
